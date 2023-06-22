@@ -1,0 +1,40 @@
+:root{
+
+    /*fonts*/
+
+     --exo: 'Exo 2', sans-serif;
+     --aquire: 'AquireBold', sans-serif;
+
+     /*colores*/
+
+     --fondo-contenido: #d2d2d2;
+     --titulo: #082032;
+     --parrafo: #2c394b;
+     --boton: #ff4c29;
+     --destacado: #3f0071;
+
+}
+
+body {
+    font-family: var(--exo);
+    font-size: 16px;
+
+}
+
+.container {
+    padding: 2.5rem 0 1.5rem;
+}
+
+.titulo-secundario {
+    font-family: var(--aquire);
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--destacado);
+}
+
+.titulo-secundario-perfil {
+    font-family: var(--exo);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--destacado);
+}

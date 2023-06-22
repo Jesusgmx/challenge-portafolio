@@ -1,0 +1,97 @@
+/* Seccion de cabecera*/
+
+.cabecera {
+    background-color: var(--fondo-contenido);
+    padding: 1.4rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo-principal {
+    font-family: var(--aquire);
+    color: var(--titulo);
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-lista {
+    display: flex;
+    text-align: left;
+    text-decoration: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-lista-item a{
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 0 10px;
+    color: var(--boton);
+}
+
+.menu-lista-item-correo a{
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 10px;
+    color: var(--boton);
+}
+
+
+/* Seccion de perfil*/
+
+.perfil {
+    max-width: 1136px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.perfil-descripcion {
+    max-width: 751px;
+    padding: 1rem 0;
+}
+
+.redessociales {
+    display: flex;
+}
+.redessociales-enlace {
+    margin: 0 1rem;
+    padding: .5rem 1rem;
+    background-color: var(--boton);
+    border-radius: 10px;
+    color: white;
+}
+
+.redessociales-enlace a {
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.fotodeperfil {
+    width: 368px;
+    border-radius: 50%;
+    box-shadow: 10px 5px 16px var(--destacado);
+}
+
+/* Seccion de sobre mi*/
+
+.sobremi {
+    max-width: 1136px;
+    margin: 0 auto;
+    background-color: var(--fondo-contenido);
+}
+
+.sobremi-descripcion {
+    max-width: 751px;
+    padding: 1rem 0;
+}
