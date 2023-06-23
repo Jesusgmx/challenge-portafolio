@@ -78,7 +78,12 @@
 }
 
 .fotodeperfil {
-    width: 368px;
+    background-image: url('img/foto-perfil.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 300px;
     border-radius: 50%;
     box-shadow: 10px 5px 16px var(--destacado);
 }
